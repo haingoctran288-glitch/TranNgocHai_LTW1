@@ -1,0 +1,1 @@
+<p>Đây là file temp2</p>
