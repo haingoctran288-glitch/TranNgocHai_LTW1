@@ -6,7 +6,7 @@
     <title>Lab 2 - test1.php</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
-        /* Menu ngang */
+        /* menu ngang */
         nav { background-color: #2c3e50; color: white; padding: 15px; }
         nav ul { list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: center; }
         nav ul li { margin: 0 20px; }
@@ -17,12 +17,12 @@
         h1 { text-align: center; color: #2980b9; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px; margin-bottom: 30px; }
         h2 { color: #34495e; border-left: 5px solid #3498db; padding-left: 10px; margin-bottom: 20px; }
         
-        /* Section 1: Danh sách môn học */
+        /* sec1 ds mon hoc */
         .s1 { margin-bottom: 40px; }
         .s1 ul { list-style-type: square; padding-left: 30px; font-size: 16px; }
         .s1 li { margin-bottom: 8px; }
         
-        /* Section 2: Danh sách sinh viên */
+        /* sec2 ds sv */
         .s2 { margin-bottom: 40px; }
         table { width: 100%; border-collapse: collapse; margin-top: 15px; }
         table, th, td { border: 1px solid #bdc3c7; }
@@ -31,7 +31,7 @@
         tr:nth-child(even) { background-color: #f2f2f2; }
         tr:hover { background-color: #e8f4f8; }
         
-        /* Section 3: Form đăng ký */
+        /* sec3 form dk */
         .s3 { margin-bottom: 30px; }
         form { background-color: #fdfefe; padding: 20px; border: 1px solid #ecf0f1; border-radius: 8px; max-width: 600px; margin: 0 auto; }
         .form-group { margin-bottom: 20px; }
@@ -53,13 +53,13 @@
 <body>
 
 <?php
-// Mảng menu
+// mang menu
 $menus = ["Trang chủ", "Tin tức", "Liên hệ", "Giới thiệu"];
 
-// Mảng môn học
+// mang mon hoc
 $subjects = ["HTML", "CSS", "JavaScript", "PHP", "MySQL"];
 
-// Mảng sinh viên
+// mang sv
 $students = [
     ["id" => "SV001", "name" => "Nguyễn Văn A", "gender" => "Nam", "class" => "CNTT1"],
     ["id" => "SV002", "name" => "Trần Thị B", "gender" => "Nữ", "class" => "CNTT2"],
@@ -68,7 +68,7 @@ $students = [
     ["id" => "SV005", "name" => "Trần Ngọc Hải", "gender" => "Nam", "class" => "CNTT4"],
 ];
 
-// Mảng cho Form
+// mang form
 $faculties = ["Công nghệ thông tin", "Quản trị kinh doanh", "Kế toán", "Ngôn ngữ Anh"];
 $classes = ["A1" => "CNTT1", "A2" => "CNTT2", "A3" => "CNTT3", "A4" => "CNTT4"];
 $genders = ["Nam", "Nữ", "Khác"];

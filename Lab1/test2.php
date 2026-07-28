@@ -33,9 +33,9 @@
     echo "Toán tử !== : "; var_dump($num !== $strNum); echo "<br>";
     
     /* 
-       Sự khác nhau:
-       - ==, !=, <>: Chỉ so sánh giá trị. (10 và "10" bằng nhau).
-       - ===, !==: So sánh cả giá trị và kiểu dữ liệu.
+       khac nhau:
+       == != <> la so sanh gia tri thoi
+       === !== so sanh luon kieu dl
     */
     echo "<i>(Xem comment trong code để biết sự khác nhau)</i>";
     ?>
@@ -54,8 +54,8 @@
     echo "\$x++ => \$x = $x, \$y = $y <br>";
     
     /*
-       - ++$x: Tăng trước rồi mới gán.
-       - $x++: Gán trước rồi mới tăng.
+       ++x tang truoc
+       x++ tang sau
     */
     echo "<i>(Xem comment trong code để biết sự khác nhau)</i>";
     ?>
@@ -73,8 +73,8 @@
     echo "Toán tử (.=) : " . $chuoi1 . "<br>";
     
     /*
-       - . : Ghép chuỗi trả về chuỗi mới.
-       - .= : Nối chuỗi và gán cho biến gốc.
+       . ghep chuoi bth
+       .= ghep xong gan luon vao bien do
     */
     echo "<i>(Xem comment trong code để biết sự khác nhau)</i>";
     ?>
@@ -89,8 +89,8 @@
     echo "mb_strlen('$chuoiCoDau') = " . mb_strlen($chuoiCoDau, "UTF-8") . "<br>";
     
     /*
-       - strlen(): Đếm số byte.
-       - mb_strlen(): Đếm số ký tự thực tế (hỗ trợ tiếng Việt).
+       strlen dem byte chu ko dem ky tu tieng viet
+       mb_strlen dem dung ky tu tviet
     */
     echo "<i>(Xem comment trong code để biết sự khác nhau)</i>";
     ?>
@@ -106,8 +106,8 @@
     echo "mb_strtolower(): " . mb_strtolower($chuoiVanBan, "UTF-8") . "<br>";
     
     /*
-       - strtoupper/strtolower: Không hỗ trợ tiếng Việt có dấu tốt.
-       - mb_strtoupper/mb_strtolower: Xử lý đúng chữ hoa/thường tiếng Việt có dấu.
+       strtoupper k htro tieng viet
+       mb_strtoupper htro tviet co dau
     */
     echo "<i>(Xem comment trong code để biết sự khác nhau)</i>";
     ?>

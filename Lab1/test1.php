@@ -9,9 +9,8 @@
     
     <?php
     /* 
-       Yêu cầu 5: Chú thích (Comment)
-       - Đây là chú thích nhiều dòng
-       - File này thực hiện 5 yêu cầu của bài thực hành Lab 1.
+       cau 5
+       cmt nhieu dong
     */
     ?>
 
@@ -25,7 +24,7 @@
 
     <h2>Yêu cầu 2: Khai báo và sử dụng biến</h2>
     <?php
-    // Khai báo 4 biến chứa thông tin cá nhân
+    // tao 4 bien
     $hoTen = "Trần Ngọc Hải";
     $maSV = "2123110179";
     $soDienThoai = "0987654321";

@@ -27,10 +27,10 @@
 <body class="bg-light">
 
 <?php
-// Mảng menu
+// mang menu
 $menus = ["Trang chủ", "Sản phẩm mới", "Giày cỏ tự nhiên", "Giày cỏ nhân tạo", "Phụ kiện", "Liên hệ"];
 
-// Mảng sản phẩm (Giày bóng đá)
+// mang sp
 $products = [
     [
         "name" => "Nike Zoom Mercurial Superfly 9",
@@ -54,10 +54,10 @@ $products = [
     ]
 ];
 
-// Mảng thương hiệu
+// mang thuong hieu
 $brands = ["Nike", "Adidas", "Puma", "Mizuno", "Under Armour", "New Balance"];
 
-// Mảng danh mục quan tâm
+// mang dMuc
 $categories = ["Giày sân 11 người (FG)", "Giày sân 7 người (TF)", "Giày Futsal (IC)", "Phụ kiện & Quần áo"];
 ?>
 
