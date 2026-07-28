@@ -63,7 +63,7 @@
     $categories = ["Giày sân 11 người (FG)", "Giày sân 7 người (TF)", "Giày Futsal (IC)", "Phụ kiện & Quần áo"];
     ?>
 
-    <!-- Navbar Bootstrap 5 -->
+    <!-- Bootstrap 5 -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
         <div class="container">
             <a class="navbar-brand fw-bold text-uppercase" href="#"><i class="bi bi-dribbble text-primary me-2"></i>Hai
@@ -256,7 +256,7 @@
         </div>
     </footer>
 
-    <!-- Bootstrap 5 JS Bundle -->
+    <!-- Bootstrap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
