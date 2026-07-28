@@ -91,8 +91,22 @@ $categories = ["Giày sân 11 người (FG)", "Giày sân 7 người (TF)", "Gi�
 
 <div class="container mt-5">
     
+    <!-- Phần Thương hiệu -->
+    <section class="mb-5">
+        <h3 class="text-center fw-bold text-uppercase mb-4">Thương Hiệu Nổi Bật</h3>
+        <div class="row g-3 text-center justify-content-center">
+            <?php foreach($brands as $brand): ?>
+            <div class="col-4 col-md-2">
+                <div class="p-3 bg-white rounded shadow-sm fw-bold text-uppercase brand-box border">
+                    <?= $brand ?>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+    </section>
+
     <!-- Phần Sản phẩm -->
-    <section id="products" class="mb-5">
+    <section id="products" class="mb-5 mt-5 pt-4 border-top">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2 class="fw-bold text-uppercase"><i class="bi bi-fire text-danger me-2"></i>Sản Phẩm Bán Chạy</h2>
             <a href="#" class="text-decoration-none">Xem tất cả <i class="bi bi-chevron-right"></i></a>
@@ -111,20 +125,6 @@ $categories = ["Giày sân 11 người (FG)", "Giày sân 7 người (TF)", "Gi�
                             <a href="#" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i> Thêm giỏ hàng</a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </section>
-
-    <!-- Phần Thương hiệu -->
-    <section class="mb-5 mt-5 pt-4 border-top">
-        <h3 class="text-center fw-bold text-uppercase mb-4">Thương Hiệu Nổi Bật</h3>
-        <div class="row g-3 text-center justify-content-center">
-            <?php foreach($brands as $brand): ?>
-            <div class="col-4 col-md-2">
-                <div class="p-3 bg-white rounded shadow-sm fw-bold text-uppercase brand-box border">
-                    <?= $brand ?>
                 </div>
             </div>
             <?php endforeach; ?>
