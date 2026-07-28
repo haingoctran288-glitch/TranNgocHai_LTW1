@@ -224,17 +224,17 @@
 
     // mang sv
     $students = [
-        ["id" => "SV001", "name" => "Nguyễn Văn A", "gender" => "Nam", "class" => "CNTT1"],
-        ["id" => "SV002", "name" => "Trần Thị B", "gender" => "Nữ", "class" => "CNTT2"],
-        ["id" => "SV003", "name" => "Lê Văn C", "gender" => "Nam", "class" => "CNTT3"],
-        ["id" => "SV004", "name" => "Phạm Thị D", "gender" => "Nữ", "class" => "CNTT1"],
+        ["id" => "SV001", "name" => "Lê Lê Lê", "gender" => "Nam", "class" => "CNTT1"],
+        ["id" => "SV002", "name" => "Trần Trần Trần", "gender" => "Nữ", "class" => "CNTT2"],
+        ["id" => "SV003", "name" => "Nguyễn Nguyễn Nguyễn", "gender" => "Nam", "class" => "CNTT3"],
+        ["id" => "SV004", "name" => "Phạm Phạm Phạm", "gender" => "LGBT", "class" => "CNTT1"],
         ["id" => "SV005", "name" => "Trần Ngọc Hải", "gender" => "Nam", "class" => "CNTT4"],
     ];
 
     // mang form
     $faculties = ["Công nghệ thông tin", "Quản trị kinh doanh", "Kế toán", "Ngôn ngữ Anh"];
-    $classes = ["A1" => "CNTT1", "A2" => "CNTT2", "A3" => "CNTT3", "A4" => "CNTT4"];
-    $genders = ["Nam", "Nữ", "Khác"];
+    $classes = ["A1" => "CCQ2311E", "A2" => "CCQ2311A", "A3" => "CCQ2311B", "A4" => "CCQ2311C"];
+    $genders = ["Nam", "Nữ", "LGBT"];
     $hobbies = ["LT" => "Lập trình", "DS" => "Đọc sách", "AN" => "Âm nhạc", "DL" => "Du lịch", "TT" => "Thể thao"];
     ?>
 
