@@ -23,8 +23,6 @@
             margin-top: 50px;
             border-top: 4px solid #0d6efd;
         }
-        
-        /* Đã xóa các hiệu ứng hover bay lượn và bóng đổ nâng cao để code nhìn "nghiệp dư" hơn */
     </style>
 </head>
 
@@ -61,7 +59,7 @@
     // thuong hieu
     $brands = ["Nike", "Adidas", "Puma", "Mizuno"];
 
-    // mang dMuc
+    // danh muc
     $categories = ["Giày sân 11 người (FG)", "Giày sân 7 người (TF)", "Giày Futsal (IC)", "Phụ kiện & Quần áo"];
     ?>
 
@@ -85,14 +83,15 @@
         </div>
     </nav>
 
-    <!-- Banner section kieu nghiep du -->
+    <!-- Banner -->
     <div>
-        <img src="https://images.unsplash.com/photo-1511886929837-354d827aae26?q=80&w=1964&auto=format&fit=crop" width="100%" height="400" style="object-fit: cover;" alt="Banner Giay Bong Da">
+        <img src="https://images.unsplash.com/photo-1511886929837-354d827aae26?q=80&w=1964&auto=format&fit=crop"
+            width="100%" height="400" style="object-fit: cover;" alt="Banner Giay Bong Da">
     </div>
 
     <div class="container mt-5">
 
-        <!-- Phần Thương hiệu -->
+        <!-- Thương hiệu -->
         <section class="mb-5">
             <h3 class="text-center fw-bold text-uppercase mb-4">Thương Hiệu Nổi Bật</h3>
             <div class="row g-3 text-center justify-content-center">
@@ -106,7 +105,7 @@
             </div>
         </section>
 
-        <!-- Phần Sản phẩm -->
+        <!-- Sản phẩm -->
         <section id="products" class="mb-5 mt-5 pt-4 border-top">
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h2 class="fw-bold text-uppercase"><i class="bi bi-fire text-danger me-2"></i>Sản Phẩm Bán Chạy</h2>
@@ -136,7 +135,7 @@
             </div>
         </section>
 
-        <!-- Form Đăng ký -->
+        <!-- Đăng ký tv -->
         <section class="mt-5 pt-4 border-top">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -241,7 +240,7 @@
                 </div>
                 <div class="col-md-4 mb-4 mb-md-0">
                     <h5 class="text-white fw-bold mb-3">Liên Hệ</h5>
-                    <p><i class="bi bi-geo-alt me-2"></i> 123 Đường Tôn Đức Thắng, Q1, TP.HCM</p>
+                    <p><i class="bi bi-geo-alt me-2"></i> 123 Đường Lê Văn Việt, Q9, TP.HCM</p>
                     <p><i class="bi bi-telephone me-2"></i> Hotline: 0987.654.321</p>
                     <p><i class="bi bi-envelope me-2"></i> haisport@example.com</p>
                 </div>
