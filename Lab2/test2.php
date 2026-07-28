@@ -5,65 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hai Sport - Lab 2 - test2.php</title>
-    <!-- Bootstrap 5 CSS CDN -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Thêm icon Bootstrap -->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
         .product-img {
-            height: 220px;
+            height: 200px;
             object-fit: cover;
             border-bottom: 1px solid #eee;
         }
 
         .banner {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1511886929837-354d827aae26?q=80&w=1964&auto=format&fit=crop') no-repeat center center;
-            background-size: cover;
+            background-color: #343a40; /* Màu nền xám đen đơn giản */
             color: white;
-            padding: 80px 0;
+            padding: 50px 0;
             text-align: center;
         }
 
         .footer {
             background-color: #212529;
-            color: #adb5bd;
-            padding: 40px 0 20px;
-            margin-top: 60px;
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
             border-top: 4px solid #0d6efd;
         }
-
-        .brand-box {
-            transition: 0.3s;
-            cursor: pointer;
-        }
-
-        .brand-box:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            background-color: #0d6efd !important;
-            color: white;
-        }
-
-        .card {
-            transition: 0.3s;
-            border: none;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
-        }
+        
+        /* Đã xóa các hiệu ứng hover bay lượn và bóng đổ nâng cao để code nhìn "nghiệp dư" hơn */
     </style>
 </head>
 
 <body class="bg-light">
 
     <?php
-    // mang menu
+    // menu
     $menus = ["Trang chủ", "Tin tức", "Liên hệ", "Giới thiệu"];
 
-    // mang sp
+    // sp
     $products = [
         [
             "name" => "Nike Zoom Mercurial Superfly 9",
@@ -87,7 +65,7 @@
         ]
     ];
 
-    // mang thuong hieu
+    // thuong hieu
     $brands = ["Nike", "Adidas", "Puma", "Mizuno"];
 
     // mang dMuc
@@ -104,11 +82,11 @@
             </button>
             <div class="collapse navbar-collapse" id="mainMenu">
                 <ul class="navbar-nav mx-auto">
-                                <?php foreach ($menus as $menu): ?>
+                    <?php foreach ($menus as $menu): ?>
                         <li class="nav-item">
                             <a class="nav-link text-uppercase fw-semibold px-3" href="#"><?= $menu ?></a>
                         </li>
-                                <?php endforeach; ?>
+                    <?php endforeach; ?>
                 </ul>
             </div>
         </div>
@@ -131,13 +109,13 @@
         <section class="mb-5">
             <h3 class="text-center fw-bold text-uppercase mb-4">Thương Hiệu Nổi Bật</h3>
             <div class="row g-3 text-center justify-content-center">
-                    <?php foreach ($brands as $brand): ?>
+                <?php foreach ($brands as $brand): ?>
                     <div class="col-4 col-md-2">
                         <div class="p-3 bg-white rounded shadow-sm fw-bold text-uppercase brand-box border">
-                                    <?= $brand ?>
+                            <?= $brand ?>
                         </div>
                     </div>
-                    <?php endforeach; ?>
+                <?php endforeach; ?>
             </div>
         </section>
 
@@ -149,14 +127,16 @@
             </div>
 
             <div class="row g-4">
-                    <?php foreach ($products as $product): ?>
+                <?php foreach ($products as $product): ?>
                     <div class="col-sm-6 col-md-3">
                         <div class="card h-100 rounded-3 overflow-hidden">
                             <img src="<?= $product['image'] ?>" class="card-img-top product-img"
                                 alt="<?= $product['name'] ?>">
                             <div class="card-body d-flex flex-column text-center">
                                 <h5 class="card-title fs-6 fw-bold mb-3"><?= $product['name'] ?></h5>
-                                <p class="card-text text-danger fw-bold fs-5 mt-auto mb-3"><?= number_format($product['price'], 0, ',', '.') ?>đ</p>
+                                <p class="card-text text-danger fw-bold fs-5 mt-auto mb-3">
+                                    <?= number_format($product['price'], 0, ',', '.') ?>đ
+                                </p>
                                 <div class="d-grid gap-2">
                                     <a href="#" class="btn btn-outline-dark"><i class="bi bi-eye me-1"></i> Chi tiết</a>
                                     <a href="#" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i> Thêm giỏ
@@ -164,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                            </div>
+                    </div>
                 <?php endforeach; ?>
             </div>
         </section>
@@ -212,9 +192,9 @@
                                 <div class="mb-4">
                                     <label class="form-label fw-bold">Bạn đang quan tâm dòng sản phẩm nào?</label>
                                     <select class="form-select" name="category">
-                                            <option value="" selected disabled>-- Chọn dòng sản phẩm --</option>
-                                    <?php foreach ($categories as $cat): ?>
-                                                    <option value="<?= $cat ?>"><?= $cat ?></option>
+                                        <option value="" selected disabled>-- Chọn dòng sản phẩm --</option>
+                                        <?php foreach ($categories as $cat): ?>
+                                            <option value="<?= $cat ?>"><?= $cat ?></option>
                                         <?php endforeach; ?>
                                     </select>
                                 </div>
