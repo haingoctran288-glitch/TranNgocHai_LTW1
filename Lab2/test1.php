@@ -235,7 +235,7 @@
     $faculties = ["Công nghệ thông tin", "Quản trị kinh doanh", "Kế toán", "Ngôn ngữ Anh"];
     $classes = ["A1" => "CCQ2311E", "A2" => "CCQ2311A", "A3" => "CCQ2311B", "A4" => "CCQ2311C"];
     $genders = ["Nam", "Nữ", "LGBT"];
-    $hobbies = ["LT" => "Lập trình", "DS" => "Đọc sách", "AN" => "Âm nhạc", "DL" => "Du lịch", "TT" => "Thể thao"];
+    $hobbies = ["LT" => "Lập trình", "AOK" => "Ăn ở không", "LM" => "Làm mọi", "DL" => "Du lịch", "TT" => "Thể thao"];
     ?>
 
     <!-- Menu ngang -->
