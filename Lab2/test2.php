@@ -120,7 +120,7 @@ $categories = ["Giày sân 11 người (FG)", "Giày sân 7 người (TF)", "Gi�
     <!-- Phần Thương hiệu -->
     <section class="mb-5 mt-5 pt-4 border-top">
         <h3 class="text-center fw-bold text-uppercase mb-4">Thương Hiệu Nổi Bật</h3>
-        <div class="row g-3 text-center">
+        <div class="row g-3 text-center justify-content-center">
             <?php foreach($brands as $brand): ?>
             <div class="col-4 col-md-2">
                 <div class="p-3 bg-white rounded shadow-sm fw-bold text-uppercase brand-box border">
