@@ -16,13 +16,6 @@
             border-bottom: 1px solid #eee;
         }
 
-        .banner {
-            background-color: #343a40; /* Màu nền xám đen đơn giản */
-            color: white;
-            padding: 50px 0;
-            text-align: center;
-        }
-
         .footer {
             background-color: #212529;
             color: white;
@@ -92,16 +85,10 @@
         </div>
     </nav>
 
-    <!-- Banner section -->
-    <section class="banner">
-        <div class="container">
-            <h1 class="display-4 fw-bold text-uppercase mb-3">Tốc Độ Đỉnh Cao - Bứt Phá Giới Hạn</h1>
-            <p class="lead mb-4">Khám phá bộ sưu tập giày bóng đá chính hãng mới nhất 2026. Ưu đãi lên đến 30% cho khách
-                hàng mới!</p>
-            <a href="#products" class="btn btn-primary btn-lg px-5 rounded-pill">Mua Ngay <i
-                    class="bi bi-arrow-right ms-2"></i></a>
-        </div>
-    </section>
+    <!-- Banner section kieu nghiep du -->
+    <div>
+        <img src="https://images.unsplash.com/photo-1511886929837-354d827aae26?q=80&w=1964&auto=format&fit=crop" width="100%" height="400" style="object-fit: cover;" alt="Banner Giay Bong Da">
+    </div>
 
     <div class="container mt-5">
 
