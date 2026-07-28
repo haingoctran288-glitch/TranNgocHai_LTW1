@@ -28,7 +28,7 @@
 
 <?php
 // mang menu
-$menus = ["Trang chủ", "Sản phẩm mới", "Giày cỏ tự nhiên", "Giày cỏ nhân tạo", "Phụ kiện", "Liên hệ"];
+$menus = ["Trang chủ", "Tin tức", "Liên hệ", "Giới thiệu"];
 
 // mang sp
 $products = [
@@ -55,7 +55,7 @@ $products = [
 ];
 
 // mang thuong hieu
-$brands = ["Nike", "Adidas", "Puma", "Mizuno", "Under Armour", "New Balance"];
+$brands = ["Nike", "Adidas", "Puma", "Mizuno"];
 
 // mang dMuc
 $categories = ["Giày sân 11 người (FG)", "Giày sân 7 người (TF)", "Giày Futsal (IC)", "Phụ kiện & Quần áo"];
@@ -69,7 +69,7 @@ $categories = ["Giày sân 11 người (FG)", "Giày sân 7 người (TF)", "Gi�
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mainMenu">
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav mx-auto">
         <?php foreach($menus as $menu): ?>
             <li class="nav-item">
                 <a class="nav-link text-uppercase fw-semibold px-3" href="#"><?= $menu ?></a>
