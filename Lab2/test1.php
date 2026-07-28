@@ -224,11 +224,11 @@
 
     // mang sv
     $students = [
-        ["id" => "SV001", "name" => "Lê Lê Lê", "gender" => "Nam", "class" => "CNTT1"],
-        ["id" => "SV002", "name" => "Trần Trần Trần", "gender" => "Nữ", "class" => "CNTT2"],
-        ["id" => "SV003", "name" => "Nguyễn Nguyễn Nguyễn", "gender" => "Nam", "class" => "CNTT3"],
-        ["id" => "SV004", "name" => "Phạm Phạm Phạm", "gender" => "LGBT", "class" => "CNTT1"],
-        ["id" => "SV005", "name" => "Trần Ngọc Hải", "gender" => "Nam", "class" => "CNTT4"],
+        ["id" => "SV001", "name" => "Lê Lê Lê", "gender" => "Nam", "class" => "CCQ2311C"],
+        ["id" => "SV002", "name" => "Trần Trần Trần", "gender" => "Nữ", "class" => "CCQ2311A"],
+        ["id" => "SV003", "name" => "Nguyễn Nguyễn Nguyễn", "gender" => "Nam", "class" => "CCQ2311E"],
+        ["id" => "SV004", "name" => "Phạm Phạm Phạm", "gender" => "LGBT", "class" => "CCQ2311B"],
+        ["id" => "SV005", "name" => "Trần Ngọc Hải", "gender" => "Nam", "class" => "CCQ2311E"],
     ];
 
     // mang form
