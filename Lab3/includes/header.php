@@ -20,9 +20,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.php">Sản Phẩm</a></li>
                     <li class="nav-item"><a class="nav-link" href="index2.php">Kết Quả SV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="form-get.php">Form GET</a></li>
+                    <li class="nav-item"><a class="nav-link" href="form-post.php">Form POST</a></li>
+                    <li class="nav-item"><a class="nav-link" href="form-post-validation-more.php">Validation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="student-search.php">Tìm SV</a></li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Tìm Kiếm..." aria-label="Search">
